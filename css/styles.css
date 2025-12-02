@@ -1,0 +1,11 @@
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  color: #333; /* базовий колір тексту */
+  text-decoration: none; /* прибираємо підкреслення посилання */
+}
+
+.logo .highlight {
+  color: #0066cc; /* колір акценту */
+  font-weight: 700; /* жирний шрифт */
+}
