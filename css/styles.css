@@ -1,11 +1,152 @@
+body {
+  color: #2e2f42;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+footer {
+  color: #f4f4fd;
+  background-color: #2e2f42;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+h1 {
+  color: #ffffff;
+}
+.main-section {
+  background-color: #2e2f42;
+  width: 1440;
+  height: 600;
+  top: 72px;
+}
 .logo {
   font-family: "Raleway", sans-serif;
-  font-size: 24px;
-  color: #333; /* базовий колір тексту */
-  text-decoration: none; /* прибираємо підкреслення посилання */
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #2e2f42;
+  text-decoration: none;
 }
 
-.logo .highlight {
-  color: #0066cc; /* колір акценту */
-  font-weight: 700; /* жирний шрифт */
+.logo .color-logo {
+  color: #4d5ae5;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+  text-decoration: none;
+}
+.footer-logo .color-footer-logo {
+  color: #4d5ae5;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-info {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+
+  font-size: 16px;
+  line-height: 24px;
+}
+.title-team {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.contact-block a {
+  color: #2e2f42;
+  text-decoration: none;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+
+  line-height: 24px;
+}
+
+.contact-block a:hover {
+  color: #4d5ae5;
+}
+.contact-block a:focus {
+  color: #ff0000;
+}
+.site-nav {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+
+  line-height: 24px;
+}
+
+.site-nav a {
+  text-decoration: none;
+}
+
+.section-title {
+  text-align: center;
+  font-family: "Roboto", sans-serif; /* Шрифт Roboto */
+  font-weight: 700; /* Bold */
+  font-style: normal; /* В CSS немає "Bold" для font-style, використовують normal, italic або oblique */
+  font-size: 36px; /* Розмір шрифту */
+  line-height: 40px; /* Висота рядка */
+  letter-spacing: 0.02em;
+}
+.team-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.team-position {
+  text-align: center;
+}
+.footer-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.project-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.project-category {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
